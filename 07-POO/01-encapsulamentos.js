@@ -1,0 +1,18 @@
+class contaBancaria{
+    #saldo = 0;
+
+    depositar(valor){
+        if(valor > 0) this.#saldo += valor;
+
+    }
+    consultaSaldo(){
+        return this.#saldo
+    };
+
+}
+
+const conta = new contaBancaria();
+conta.depositar(100);
+console.log(conta.consultaSaldo());
+conta.depositar(400);
+console.log(conta.consultaSaldo());
