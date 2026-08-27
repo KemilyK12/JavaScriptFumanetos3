@@ -1,5 +1,5 @@
 const aluno = {
-    nome: "Camily",
+    nome: "Manu",
     apresentar() {
         console.log(`Meu nome é ${this.nome}`);
     }
