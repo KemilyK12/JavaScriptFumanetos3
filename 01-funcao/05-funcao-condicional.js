@@ -1,4 +1,4 @@
-function verficadorAprovacao(media) {
+function verificadorAprovacao(media) {
     return media >= 7 ? "Aprovado" : "Reprovado"
 }
 //ou:
@@ -7,4 +7,4 @@ function verficadorAprovacao(media) {
 //     }
 //     return "Reprovado"
 // }
-console.log(verificarAprovacao(8));
+console.log(verificadorAprovacao(8));
